@@ -1,5 +1,5 @@
 const element = (
-  // Write your code here.
+ 
 
   <div className='main-container'>
     <div className='content-container'>
