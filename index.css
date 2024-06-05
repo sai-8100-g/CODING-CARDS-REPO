@@ -1,0 +1,110 @@
+/* Write your code here. */
+.main-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin: 0px;
+}
+
+.heading-container{
+  margin: 0px;
+}
+
+.buttons-conatiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+
+  flex-shrink: 1;
+  width: 80%;
+  height: 100px;
+}
+
+button {
+  font-family: 'Roboto';
+  background-color: #eab308;
+  font-size: 10px;
+  padding: 10px 30px;
+  border: 0px solid;
+  border-radius: 5px;
+  font-weight: bold;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 100%;
+  align-self: flex-start;
+}
+
+@media (max-width: 576px) {
+  button {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px){
+  button{
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px){
+  button{
+    font-size: 30px;
+    padding: 15px 40px;
+    
+  }
+  h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+  button{
+    font-size: 40px;
+    padding: 20px 55px;
+    
+  }
+  h1{
+    font-size: 120px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (min-width:1200px){
+  button{
+    font-size: 40px;
+    padding: 20px 55px;
+    
+  }
+  h1{
+    font-size: 120px;
+    letter-spacing: 5px;
+  }
+}
